@@ -38,11 +38,6 @@
 ;; indent
 (setq-default indent-tabs-mode nil)
 
-;;;; platform
-(if (string-equal system-type "windows-nt")
-    (setq platform-binary-prefix ".exe")
-  )
-
 ;;;; Look and Feel
 ;; color theme
 (require 'color-theme)
